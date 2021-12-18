@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 from selenium.webdriver.common.by import By
-
+# אלוהים שיעזור לי 
 
 PATH = "C:\Windows\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
