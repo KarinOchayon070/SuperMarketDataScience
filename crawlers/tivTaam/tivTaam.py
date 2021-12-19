@@ -21,7 +21,7 @@ for item in urls:
     driver.get(item["url"])
     # This line wait 5 sec for the page to load
     time.sleep(5)
-    # scrollToBottom(driver)
+    scrollToBottom(driver)
 
     # Going through the itemsToScrape dictionary key = item number, value = data-product-code
     for key, value in item["itemsToScrape"].items():
