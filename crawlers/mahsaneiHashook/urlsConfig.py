@@ -1,24 +1,34 @@
 urls = [
     {
         # URL For the veggies and fruits section
-        "url": 'https://www.mck.co.il/categories/79706/products',
+        "url": 'https://www.mck.co.il/categories/79705/products',
         "itemsToScrape": {
-            # "11": "product_1985513_name",  # tomato
-            # "12": "product_1985518_name",  # onion
-            # "13": "product_1519108_name",  # gamba
-            "14": "product_1461851_name",  # cucumber
-            # "15": "P_374",  # mushroom
-            # "16": "כרוב לבן",  # cabbage
-            # # "17": "P_619",  # hot_pepper
-            # "18": "קולורבי",  # kohlrabi
-            # "19": "חציל",  # eggplant
-            # # "20": "P_206",  # radish
+            "1": "בננה",                 # banana
+            "2": "קלמנטינה",            # clementine
+            "3": "תפוז טבורי",                # orange
+            "4": "תפוח עץ גרני סמית",       # green apple
+            "5": "לימון",              # lemon
+            "6": "מלון",               # melon
+            "7": "אשכולית אדומה",     # red_grapefruit
+            "8": "אבוקדו",            # avocado
+            "9": "פומלית",            # pomelo
+            "10": "קיווי",         # kiwi
         },
     },
     # {
-    #     "url": "https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%95%D7%99%D7%A8%D7%A7%D7%95%D7%AA/%D7%99%D7%A8%D7%A7%D7%95%D7%AA/c/A0408",
-    #     "itemsToScrape": {
+    # "url": "https://www.mck.co.il/categories/79706/products",
+    # "itemsToScrape": {
+    #     "11": "עגבניה",                    # tomato
+    #     "12": "בצל יבש",                   # onion
+    #     "13": "פלפל אדום",               # gamba
+    #     "14": "מלפפון",                   # cucumber
+    #     "15": "קישוא",                  # green_zucchini
+    #     "16": "שומר",                    # cabbage
+    #     "17": "פלפל חריף ירוק",        # green_hot_pepper
+    #     "18": "קולורבי",               # kohlrabi
+    #     "19": "חציל",                   # eggplant
+    #     "20": "צנונית בתפזורת",                   # radish
 
-    #     },
+    # },
     # },
 ]

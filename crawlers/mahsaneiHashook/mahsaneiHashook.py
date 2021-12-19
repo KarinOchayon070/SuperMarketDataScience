@@ -1,10 +1,9 @@
 from selenium import webdriver
 import time
-
 from selenium.webdriver.common.by import By
-
-from utils import scrollToBottom
 from urlsConfig import urls
+from crawlers.utils import scrollToBottom
+
 
 # Path to chromedriver
 PATH = "C:\Windows\chromedriver.exe"
@@ -19,6 +18,7 @@ itemsScraped = {}
 for item in urls:
     # This line opens the browser and goes to the url
     driver.get(item["url"])
+    # utils.scrollToBottom(driver)
     # This line wait 5 sec for the page to load
     time.sleep(5)
     # scrollToBottom(driver)
