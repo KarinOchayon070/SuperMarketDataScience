@@ -1,8 +1,8 @@
-from urlsConfig import urls
-# from utils import scrollToBottom
+from shufersalConfig import urls
 from selenium.webdriver.common.by import By
 import time
 from selenium import webdriver
+import utils
 
 # Path to chromedriver
 PATH = "C:\Windows\chromedriver.exe"
@@ -13,33 +13,13 @@ driver = webdriver.Chrome(PATH)
 
 itemsScraped = {}
 
-def scrollToBottom(driver):
-    # Get scroll height
-    last_height = driver.execute_script("return document.body.scrollHeight")
-
-    while True:
-        # Scroll down to bottom
-        driver.execute_script(
-            "window.scrollTo(0, document.body.scrollHeight);")
-
-        # Wait to load page
-        time.sleep(4)
-        print("SCROLLING TO BOTTOM")
-
-        # Calculate new scroll height and compare with last scroll height
-        new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
-            break
-        last_height = new_height
-
-
 
 for item in urls:
     # This line opens the browser and goes to the url
     driver.get(item["url"])
     # This line wait 5 sec for the page to load
     time.sleep(5)
-    scrollToBottom(driver)
+    utils.scrollToBottom(driver)
 
     # Going through the itemsToScrape dictionary key = item number, value = data-product-code
     for key, value in item["itemsToScrape"].items():

@@ -1,9 +1,10 @@
 from selenium import webdriver
 import time
+import utils
 from selenium.webdriver.common.by import By
-from urlsConfig import urls
-#from crawlers.utils import scrollToBottom
 
+#from utils import scrollToBottom
+from tivTaamConfig import urls
 
 # Path to chromedriver
 PATH = "C:\Windows\chromedriver.exe"
@@ -11,24 +12,6 @@ PATH = "C:\Windows\chromedriver.exe"
 # Which browser to use (Edge, Chrome, Firefox,etc...)
 driver = webdriver.Chrome(PATH)
 
-def scrollToBottom(driver):
-    # Get scroll height
-    last_height = driver.execute_script("return document.body.scrollHeight")
-
-    while True:
-        # Scroll down to bottom
-        driver.execute_script(
-            "window.scrollTo(0, document.body.scrollHeight);")
-
-        # Wait to load page
-        time.sleep(4)
-        print("SCROLLING TO BOTTOM")
-
-        # Calculate new scroll height and compare with last scroll height
-        new_height = driver.execute_script("return document.body.scrollHeight")
-        if new_height == last_height:
-            break
-        last_height = new_height
 
 itemsScraped = {}
 
@@ -36,16 +19,15 @@ itemsScraped = {}
 for item in urls:
     # This line opens the browser and goes to the url
     driver.get(item["url"])
-    # utils.scrollToBottom(driver)
     # This line wait 5 sec for the page to load
     time.sleep(5)
-    scrollToBottom(driver)
+    utils.scrollToBottom(driver)
 
     # Going through the itemsToScrape dictionary key = item number, value = data-product-code
     for key, value in item["itemsToScrape"].items():
         try:
             marketItem = driver.find_element(
-                By.CSS_SELECTOR, f"div[id='{value}']")
+                By.CSS_SELECTOR,  f"meta[content='{value}']")
 
             itemParent = marketItem.find_element(
                 By.XPATH, "..")

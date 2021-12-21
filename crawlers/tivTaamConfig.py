@@ -3,10 +3,10 @@ urls = [
         # URL For the veggies and fruits
         "url": 'https://www.tivtaam.co.il/categories/90071/products',
         "itemsToScrape": {
-            "1": "בננה",                 # banana
+            "1": "בננות",                 # banana
             "2": "קלמנטינה",             # clementine
-            "3": "תפוז טבורי",           # orange
-            "4": "תפוח עץ גרני סמית",    # green apple
+            "3": "תפוזים",           # orange
+            "4": "תפוח עץ סמיט",    # green apple
             "5": "לימון",                 # lemon
             "6": "מלון",                  # melon                        חסר
             "7": "אשכולית אדומה",         # red_grapefruit
@@ -17,7 +17,7 @@ urls = [
     },
     {
         # URL For the veggies
-        "url": "https: // www.tivtaam.co.il/categories/90066/products",
+        "url": "https://www.tivtaam.co.il/categories/90066/products",
         "itemsToScrape": {
             "11": "עגבניות",                    # tomato
             "12": "בצל יבש",                   # onion

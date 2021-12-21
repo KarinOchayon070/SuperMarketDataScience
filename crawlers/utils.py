@@ -1,4 +1,5 @@
 import time
+import re
 
 
 def scrollToBottom(driver):
@@ -19,3 +20,7 @@ def scrollToBottom(driver):
         if new_height == last_height:
             break
         last_height = new_height
+
+
+def extractNumber(string):
+    return int(''.join(re.findall(r'\d+', string)))

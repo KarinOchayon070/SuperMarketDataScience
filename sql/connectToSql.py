@@ -13,13 +13,13 @@ conn.execute(
     'CREATE TABLE IF NOT EXISTS Category (category_id INTEGER PRIMARY KEY, category_name TEXT)')
 
 
-for super in supersToEnter:
-    conn.execute(
-        f"INSERT OR IGNORE INTO SuperMarkets (super_name) VALUES ('{super}')")
+# for super in supersToEnter:
+#     conn.execute(
+#         f"INSERT OR IGNORE INTO SuperMarkets (super_name) VALUES ('{super}')")
 
-for category in categoriesToEnter:
-    conn.execute(
-        f"INSERT OR IGNORE INTO Category (category_name) VALUES ('{category}')")
+# for category in categoriesToEnter:
+#     conn.execute(
+#         f"INSERT OR IGNORE INTO Category (category_name) VALUES ('{category}')")
 
 
 cur = conn.cursor()
