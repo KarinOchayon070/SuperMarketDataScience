@@ -3,7 +3,7 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from crawlers.utils import scrollToBottom
+from utils import scrollToBottom
 from urlsConfig import urls
 
 # Path to chromedriver

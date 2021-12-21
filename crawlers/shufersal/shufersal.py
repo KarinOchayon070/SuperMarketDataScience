@@ -1,10 +1,10 @@
-from selenium import webdriver
-import time
-
-from selenium.webdriver.common.by import By
-
-from crawlers.utils import scrollToBottom
+import sys
+sys.path.append('..')
 from urlsConfig import urls
+from utils import scrollToBottom
+from selenium.webdriver.common.by import By
+import time
+from selenium import webdriver
 
 # Path to chromedriver
 PATH = "C:\Windows\chromedriver.exe"
