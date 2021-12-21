@@ -15,20 +15,20 @@ urls = [
             "10": "קיווי",                # kiwi
         },
     },
-    # {
-    # "url": "https://www.mck.co.il/categories/79706/products",
-    # "itemsToScrape": {
-    #     "11": "עגבניה",                    # tomato
-    #     "12": "בצל יבש",                   # onion
-    #     "13": "פלפל אדום",               # gamba
-    #     "14": "מלפפון",                   # cucumber
-    #     "15": "קישוא",                  # green_zucchini
-    #     "16": "שומר",                    # cabbage
-    #     "17": "פלפל חריף ירוק",        # green_hot_pepper
-    #     "18": "קולורבי",               # kohlrabi
-    #     "19": "חציל",                   # eggplant
-    #     "20": "צנונית בתפזורת",                   # radish
+    {
+    "url": "https://www.mck.co.il/categories/79706/products",
+    "itemsToScrape": {
+        "11": "עגבניה",                    # tomato
+        "12": "בצל יבש",                   # onion
+        "13": "פלפל אדום",               # gamba
+        "14": "מלפפון",                   # cucumber
+        "15": "קישוא",                  # green_zucchini
+        "16": "שומר",                    # cabbage
+        "17": "פלפל חריף ירוק",        # green_hot_pepper
+        "18": "קולורבי",               # kohlrabi
+        "19": "חציל",                   # eggplant
+        "20": "צנונית בתפזורת",                   # radish
 
-    # },
-    # },
+    },
+    },
 ]

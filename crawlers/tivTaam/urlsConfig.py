@@ -1,6 +1,6 @@
 urls = [
     {
-        # URL For fruits
+        # URL For the veggies and fruits
         "url": 'https://www.tivtaam.co.il/categories/90071/products',
         "itemsToScrape": {
             "1": "בננה",                 # banana
@@ -16,7 +16,7 @@ urls = [
         },
     },
     {
-        # URL For veggies
+        # URL For the veggies
         "url": "https: // www.tivtaam.co.il/categories/90066/products",
         "itemsToScrape": {
             "11": "עגבניות",                    # tomato
@@ -29,6 +29,7 @@ urls = [
             "18": "קולורבי",               # kohlrabi
             "19": "חצילים",                   # eggplant
             "20": "צנון",                   # radish
+
         },
     },
 ]
