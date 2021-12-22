@@ -181,48 +181,76 @@ urls = [
     #     },
     # },
     # # ------------------------------DRINKS AND ALCOHOL------------------------------
-    {
-        "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA%2C-%D7%90%D7%9C%D7%9B%D7%95%D7%94%D7%95%D7%9C-%D7%95%D7%99%D7%99%D7%9F/%D7%99%D7%99%D7%A0%D7%95%D7%AA-%D7%95%D7%AA%D7%99%D7%A8%D7%95%D7%A9/c/A1320',
-        "itemsToScrape": {
-            "98": "P_7290017812571",  # Tirosh wine
-            "99": "P_7290018165010",  # Gewurztraminer wine
+    # {
+    #     "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA%2C-%D7%90%D7%9C%D7%9B%D7%95%D7%94%D7%95%D7%9C-%D7%95%D7%99%D7%99%D7%9F/%D7%99%D7%99%D7%A0%D7%95%D7%AA-%D7%95%D7%AA%D7%99%D7%A8%D7%95%D7%A9/c/A1320',
+    #     "itemsToScrape": {
+    #         "98": "P_7290017812571",  # Tirosh wine
+    #         "99": "P_7290018165010",  # Gewurztraminer wine
 
-        },
-    },
-    {
-        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=10851',
-        "itemsToScrape": {
-            "100": "P_1594377",  # ORANGE JUICE - 1.5 LITER
-            "101": "P_1594391",  # GRAPE JUICE - 1.5 LITER
-            "102": "P_7290110115494",  # FUZETEA - 1.5 LITER
-            "103": "P_1247143",  # APPLE NECTAR - 1 LITER
-            "104": "P_7290019056577",  # MANGO JUICE - 1.5 LITER
-            "105": "P_8850389105849",  # alovera drink - 1  liter
+    #     },
+    # },
+    # {
+    #     "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=10851',
+    #     "itemsToScrape": {
+    #         "100": "P_1594377",  # ORANGE JUICE - 1.5 LITER
+    #         "101": "P_1594391",  # GRAPE JUICE - 1.5 LITER
+    #         "102": "P_7290110115494",  # FUZETEA - 1.5 LITER
+    #         "103": "P_1247143",  # APPLE NECTAR - 1 LITER
+    #         "104": "P_7290019056577",  # MANGO JUICE - 1.5 LITER
+    #         "105": "P_8850389105849",  # alovera drink - 1  liter
 
-        },
-    },
-    {
-        "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA%2C-%D7%90%D7%9C%D7%9B%D7%95%D7%94%D7%95%D7%9C-%D7%95%D7%99%D7%99%D7%9F/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA-%D7%A7%D7%9C%D7%99%D7%9D/c/A1308',
-        "itemsToScrape": {
-            "106": "P_7290110115203",  # COCA COLA - 1.5 LITER
-            "107": "P_7290110115227",  # ZERO COCA COLA - 1.5 LITER
-            "108": "P_136172",  # SEVENUP - 1.5 LITER
-            "109": "P_7290018471906",  # SCHWEPS - 1 LITER
-            "110": "P_7290019056065",  # SCHWEPS - 1.5 LITER
-            "111": "P_7290110115296",  # FANTA - 1  liter
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA%2C-%D7%90%D7%9C%D7%9B%D7%95%D7%94%D7%95%D7%9C-%D7%95%D7%99%D7%99%D7%9F/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA-%D7%A7%D7%9C%D7%99%D7%9D/c/A1308',
+    #     "itemsToScrape": {
+    #         "106": "P_7290110115203",  # COCA COLA - 1.5 LITER
+    #         "107": "P_7290110115227",  # ZERO COCA COLA - 1.5 LITER
+    #         "108": "P_136172",  # SEVENUP - 1.5 LITER
+    #         "109": "P_7290018471906",  # SCHWEPS - 1 LITER
+    #         "110": "P_7290019056065",  # SCHWEPS - 1.5 LITER
+    #         "111": "P_7290110115296",  # FANTA - 1  liter
 
-        },
-    },
-    {
-        "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA%2C-%D7%90%D7%9C%D7%9B%D7%95%D7%94%D7%95%D7%9C-%D7%95%D7%99%D7%99%D7%9F/%D7%91%D7%99%D7%A8%D7%94-%D7%95%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA-%D7%90%D7%A0%D7%A8%D7%92%D7%99%D7%94/c/A1314',
-        "itemsToScrape": {
-            "112": "P_8464796",  # SIX PACK OF HEINEKEN
-            "113": "P_7501064191398",  # SIX PACK OF CORONA
-            "114": "P_8464741",  # SIX PACK OF GOLDSTAR
-            "115": "P_1594858",  # SIX PACK OF TUBORG
-            "116": "P_1594865",  # SIX PACK OF CARLSBERG
-            "117": "P_8464703",  # SIX PACK OF MACKBVI
-            "118": "P_5410228144755",  # SIX PACK OF STELLA ARTOA
-        },
-    },
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA%2C-%D7%90%D7%9C%D7%9B%D7%95%D7%94%D7%95%D7%9C-%D7%95%D7%99%D7%99%D7%9F/%D7%91%D7%99%D7%A8%D7%94-%D7%95%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA-%D7%90%D7%A0%D7%A8%D7%92%D7%99%D7%94/c/A1314',
+    #     "itemsToScrape": {
+    #         "112": "P_8464796",  # SIX PACK OF HEINEKEN
+    #         "113": "P_7501064191398",  # SIX PACK OF CORONA
+    #         "114": "P_8464741",  # SIX PACK OF GOLDSTAR
+    #         "115": "P_1594858",  # SIX PACK OF TUBORG
+    #         "116": "P_1594865",  # SIX PACK OF CARLSBERG
+    #         "117": "P_8464703",  # SIX PACK OF MACKBVI
+    #         "118": "P_5410228144755",  # SIX PACK OF STELLA ARTOA
+    #     },
+    # },
+    # # ------------------------------Baking products and spreads------------------------------
+    # {
+    #     "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%91%D7%99%D7%A9%D7%95%D7%9C-%D7%90%D7%A4%D7%99%D7%94-%D7%95%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D-%D7%9C%D7%90%D7%A4%D7%99%D7%94-%D7%95%D7%91%D7%99%D7%A9%D7%95%D7%9C/c/A2205',
+    #     "itemsToScrape": {
+    #         "119": "P_2008750",  # Baking powder - 10 units * 10 grams
+    #         "120": "P_68138",  # Vanilla Instant Pudding - 80 grams
+    #         "121": "P_7290112496027",  # coco syrup - 680 grams
+    #         "122": "P_483139",  # marzipan - 100 grams
+    #         "123": "P_7290013145901",  # soda - 50 grams
+    #         "124": "P_835811006053",  # cornflour - 200 grams
+    #         "125": "P_2007234",  # sugar powder - 100 grams
+    #         "126": "P_2008743",  # vanila suger - 10 units * 10 grams
+    #         "127": "P_7290100858592",  # cocoa powder - 150 grams
+    #         "128": "P_72945308",  # Fresh yeast for baking - 2 units*25 grams
+    #         "129": "P_7290013144393",  # Vanilla flavored extract - 50 mill
+    #         "130": "P_7290013145178",  # Ground coconut - 100 grams
+    #         # Chocolate-flavored candies for decoration - 100 grams
+    #         "131": "P_5719783",
+    #         "132": "P_7290112496034",  # Maple flavored syrup - 580 grams
+    #         # Zimkao for eating icing and baking - 400 grams
+    #         "133": "P_416076",
+    #         "134": "P_7290013144270",  # Pastry cream - 100 grams
+    #         "135": "P_7290113191921",  # malabi syrup - 750 mill
+    #         "136": "P_7290113192218",  # A mixture for malabi - 112 grams
+    #         "137": "P_18000703517",  # A mixture for making marble cake - 550 grams
+    #         "138": "P_6805850",  # A mixture for making panckacks - 550 grams
+    #     },
+    # },
 ]

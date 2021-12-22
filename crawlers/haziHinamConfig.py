@@ -200,48 +200,76 @@ urls = [
     #     },
     # },
     # # ------------------------------DRINKS AND ALCOHOL------------------------------
-    {
-        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=10850',
-        "itemsToScrape": {
-            "98": "תירוש כרמל מיץ ענבים",  # Tirosh wine
-            "99": "יין גוורצטרמינר לבן חצי יבש",  # Gewurztraminer wine
+    # {
+    #     "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=10850',
+    #     "itemsToScrape": {
+    #         "98": "תירוש כרמל מיץ ענבים",  # Tirosh wine
+    #         "99": "יין גוורצטרמינר לבן חצי יבש",  # Gewurztraminer wine
 
-        },
-    },
-    {
-        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=10851',
-        "itemsToScrape": {
-            "100": "משקה קל בטעם תפוזים",  # ORANGE JUICE - 1.5 LITER
-            "101": "פריגת ענבים",  # GRAPE JUICE - 1.5 LITER
-            "102": "תה קר בטעם ענבים",  # FUZETEA - 1.5 LITER
-            "103": "נקטר תפוחים",  # APPLE NECTAR - 1 LITER
-            "104": "משקה בטעם מנגו",  # MANGO JUICE - 1.5 LITER
-            "105": "משקה אלוורה בטעם אפרסק",  # alovera drink - 1  liter
+    #     },
+    # },
+    # {
+    #     "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=10851',
+    #     "itemsToScrape": {
+    #         "100": "משקה קל בטעם תפוזים",  # ORANGE JUICE - 1.5 LITER
+    #         "101": "פריגת ענבים",  # GRAPE JUICE - 1.5 LITER
+    #         "102": "תה קר בטעם ענבים",  # FUZETEA - 1.5 LITER
+    #         "103": "נקטר תפוחים",  # APPLE NECTAR - 1 LITER
+    #         "104": "משקה בטעם מנגו",  # MANGO JUICE - 1.5 LITER
+    #         "105": "משקה אלוורה בטעם אפרסק",  # alovera drink - 1  liter
 
-        },
-    },
-    {
-        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=11424',
-        "itemsToScrape": {
-            "106": "קוקה קולה קלאסי",  # COCA COLA - 1.5 LITER
-            "107": "קוקה קולה זירו zero",  # ZERO COCA COLA - 1.5 LITER
-            "108": "סבן אפ",  # SEVENUP - 1.5 LITER
-            "109": "משקה מוגז לימודה ורודה",  # SCHWEPS - 1.5 LITER
-            "110": "משקה בטעם פירות יער מוגז עדין",  # SCHWEPS - 1.5 LITER
-            "111": "פאנטה זירו בטעם תפוח",  # FANTA - 1  liter
+    #     },
+    # },
+    # {
+    #     "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=11424',
+    #     "itemsToScrape": {
+    #         "106": "קוקה קולה קלאסי",  # COCA COLA - 1.5 LITER
+    #         "107": "קוקה קולה זירו zero",  # ZERO COCA COLA - 1.5 LITER
+    #         "108": "סבן אפ",  # SEVENUP - 1.5 LITER
+    #         "109": "משקה מוגז לימודה ורודה",  # SCHWEPS - 1.5 LITER
+    #         "110": "משקה בטעם פירות יער מוגז עדין",  # SCHWEPS - 1.5 LITER
+    #         "111": "פאנטה זירו בטעם תפוח",  # FANTA - 1  liter
 
-        },
-    },
-    {
-        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=11209',
-        "itemsToScrape": {
-            "112": "בירה היינקן שישייה",  # SIX PACK OF HEINEKEN
-            "113": "בירה קורונה שישייה",  # SIX PACK OF CORONA
-            "114": "בירה גולדסטאר שישייה",  # SIX PACK OF GOLDSTAR
-            "115": "בירה טובורג רד שישייה",  # SIX PACK OF TUBORG
-            "116": "בירה קרלסברג שישייה",  # SIX PACK OF CARLSBERG
-            "117": "בירה מכבי שישייה",  # SIX PACK OF MACKBVI
-            "118": "בירה סטלה ארטואה שישייה",  # SIX PACK OF STELLA ARTOA
-        },
-    },
+    #     },
+    # },
+    # {
+    #     "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=11209',
+    #     "itemsToScrape": {
+    #         "112": "בירה היינקן שישייה",  # SIX PACK OF HEINEKEN
+    #         "113": "בירה קורונה שישייה",  # SIX PACK OF CORONA
+    #         "114": "בירה גולדסטאר שישייה",  # SIX PACK OF GOLDSTAR
+    #         "115": "בירה טובורג רד שישייה",  # SIX PACK OF TUBORG
+    #         "116": "בירה קרלסברג שישייה",  # SIX PACK OF CARLSBERG
+    #         "117": "בירה מכבי שישייה",  # SIX PACK OF MACKBVI
+    #         "118": "בירה סטלה ארטואה שישייה",  # SIX PACK OF STELLA ARTOA
+    #     },
+    # },
+    # # # ------------------------------Baking products and spreads------------------------------
+    # {
+    #     "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=77&subCategoryId=10835',
+    #     "itemsToScrape": {
+    #         "119": "אבקת אפיה",  # Baking powder - 10 units * 10 grams
+    #         "120": "אינסטנט פודינג בטעם וניל",  # Vanilla Instant Pudding - 80 grams
+    #         "121": "סירופ בטעם שוקולד",  # coco syrup - 680 grams
+    #         "122": "מרציפן",  # marzipan - 100 grams
+    #         "123": "סודה לשתיה",  # soda - 50 grams
+    #         "124": "קורנפלור",  # cornflour - 200 grams
+    #         "125": "אבקת סוכר",  # sugar powder - 100 grams
+    #         "126": "סוכר וניל",  # vanila suger - 10 units * 10 grams
+    #         "127": "אבקת קקאו",  # cocoa powder - 150 grams
+    #         "128": "שמרים טריים לאפיה",  # Fresh yeast for baking - 2 units*25 grams
+    #         "129": "תמצית בטעם וניל",  # Vanilla flavored extract - 50 mill
+    #         "130": "קוקוס טחון",  # Ground coconut - 100 grams
+    #         # Chocolate-flavored candies for decoration - 100 grams
+    #         "131": "סוכריות לקישוט בטעם שוקולד",
+    #         "132": "סירופ בטעם מייפל",  # Maple flavored syrup - 580 grams
+    #         # Zimkao for eating icing and baking - 400 grams
+    #         "133": "צימקאו לאכילה ציפוי ואפייה",
+    #         "134": "קרם פטיסייר",  # Pastry cream - 100 grams
+    #         "135": "סירופ בטעם מלבי",  # malabi syrup - 750 mill
+    #         "136": "תערובת להכנת מאלבי",  # A mixture for malabi - 112 grams
+    #         "137": "תערובת להכנת עוגת שיש",  # A mixture for making marble cake - 550 grams
+    #         "138": "תערובת להכנת פנקייק",  # A mixture for making panckacks - 550 grams
+    #     },
+    # },
 ]

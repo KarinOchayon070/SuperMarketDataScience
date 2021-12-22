@@ -236,4 +236,31 @@ urls = [
     #         "118": "שנדי בירה בטעם תפוח 6 יחידות",  # SIX PACK OF STELLA ARTOA
     #     },
     # },
+    # {
+    #     "url": 'https://www.mck.co.il/categories/79622/products',
+    #     "itemsToScrape": {
+    #         "119": "אבקת אפייה",  # Baking powder - 10 units * 10 grams
+    #         "120": "פודינג בטעם וניל צרפתי",  # Vanilla Instant Pudding - 80 grams
+    #         "121": "סירופ בטעם שוקולד",  # coco syrup - 680 grams
+    #         "122": "מרציפן",  # marzipan - 100 grams
+    #         "123": "סודה לשתיה",  # soda - 50 grams
+    #         "124": "קורנפלור",  # cornflour - 200 grams
+    #         "125": "אבקת סוכר",  # sugar powder - 100 grams
+    #         "126": "סוכר וניל",  # vanila suger - 10 units * 10 grams
+    #         "127": "אבקת קקאו",  # cocoa powder - 150 grams
+    #         "128": "שמרים טריים",  # Fresh yeast for baking - 2 units*25 grams
+    #         "129": "תמצית אפיה וניל",  # Vanilla flavored extract - 50 mill
+    #         "130": "קוקוס טחון",  # Ground coconut - 100 grams
+    #         # Chocolate-flavored candies for decoration - 100 grams
+    #         "131": "סוכריות בטעם שוקולד לקישוט",
+    #         "132": "סירופ בטעם מייפל",  # Maple flavored syrup - 580 grams
+    #         # Zimkao for eating icing and baking - 400 grams
+    #         "133": "צימקאו לאכילה ציפוי ואפייה",
+    #         "134": "קרם פטיסייר",  # Pastry cream - 100 grams
+    #         "135": "סירופ מלבי",  # malabi syrup - 750 mill
+    #         "136": "פינוק מלבי אורגינל",  # A mixture for malabi - 112 grams
+    #         "137": "תערובת להכנת עוגת שיש",  # A mixture for making marble cake - 550 grams
+    #         "138": "תערובת להכנת פנקייק",  # A mixture for making panckacks - 550 grams
+    #     },
+    # },
 ]
