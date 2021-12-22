@@ -96,4 +96,64 @@ urls = [
             "55": "דג דניס טרי",  # Fresh Dennis fish - by kg
         },
     },
+    # ------------------------------DAIRY------------------------------
+    {
+        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=78&subCategoryId=11211',
+        "itemsToScrape": {
+            "56": "חלב עיזים",                      # goat milk - 1 liter
+            "57": "משקה אייס קפה",                  # ice coffie drink - 1 liter
+            "58": "משקה שוקו בבקבוק",               # shoko drink - 1 liter
+        },
+    },
+    {
+        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=78&subCategoryId=10864',
+        "itemsToScrape": {
+            # Pack of 8 pieces of Activia cream yogurt 1.5% fat
+            "59": "מארז 8 יח' אקטיביה יוגורט קרמי 1.5% שומן",
+            # 1 Yogurt with Gluten Free Chocolate Crackers 4.2%
+            "60": "יוגורט עם פצפוצי שוקולד ללא גלוטן 4.2%",
+            # Frilly yogurt with 1.5% strawberry - 500 grams
+            "61": "יוגורט פרילי עם תות 1.5%",
+        },
+    },
+    {
+        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=78&subCategoryId=10865',
+        "itemsToScrape": {
+            # Cottage 5% mehadrin - 250 GRAMS
+            "62": "קוטג' 5% מהדרין",
+            # 5% white cheese - 250 grams
+            "63": "גבינה לבנה 5%",
+            # Napoleon natural cheese cream cheese 25% - 225 grams
+            "64": "נפוליאון גבינת שמנת בטעם טבעי 25%",
+            # 5% creamy cheese symphony - 200 grams
+            "65": "סימפוניה גבינה במרקם שמנת 5%",
+            # Labana cheese 5% - 250 grams
+            "66": "גבינת לאבנה 5%",
+        },
+    },
+    {
+        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=78&subCategoryId=10866',
+        "itemsToScrape": {
+            # Camembert cheese - 200 GRAMS
+            "67": "גבינת קממבר",
+            # Roquefort cheese - 180 grams
+            "68": "גבינת רוקפור",
+            # Mozzarella - 100 grams
+            "69": "מוצרלה פרסקה 18% שומן",
+            # Berry cheese - 125 grams
+            "70": "גבינת ברי",
+            # Dreamy cheese 25% fat - 200 grams
+            "71": "גבינה חלומי  25% שומן",
+            # Bulgarian cheese 16% - 250 grams
+            "72": "גבינה בולגרית 16%",
+            # zftit cheese 5% - 200 grams
+            "73": "גבינה צפתית מעודנת 5%",
+            # feta shipping cheese - 250 grams
+            "74": "גבינת פטה כבשים 5%",
+            # hemed cheese 16% - 2500 grams
+            "75": "גבינת חמד 16% שקית",
+            # rikota cheese - 300 grams
+            "76": "גבינת ריקוטה פרסקה",
+        },
+    },
 ]

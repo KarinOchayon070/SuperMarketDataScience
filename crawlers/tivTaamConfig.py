@@ -141,4 +141,49 @@ urls = [
             "55": "דניס",
         },
     },
+    {
+        # ------------------------------DAIRY------------------------------
+        "url": 'https://www.tivtaam.co.il/categories/90176/products',
+        "itemsToScrape": {
+            "56": "חלב עיזים 3.6% קרטון",                      # goat milk - 1 liter
+            "57": "משקה חלב אייס קפה",                  # ice coffie drink - 1 liter
+            "58": "משקה שוקו",               # shoko drink - 1 liter
+            # Pack of 8 pieces of Activia cream yogurt 1.5% fat
+            "59": "יוגורט לבן 1.5% 8 יחידות",
+            # 1 Yogurt with Gluten Free Chocolate Crackers 4.2%
+            "60": "יוגורט עם אורז תפוח מצופה שוקולד ואורז תפוח עם קקאו"
+            # Frilly yogurt with 1.5% strawberry - 500 grams
+            "61": "פרילי יוגורט עם תות 1.5%",
+            # Cottage 5% mehadrin - 250 GRAMS
+            "62": "קוטג' 5%",
+            # 5% white cheese - 250 grams
+            "63": "סקי גבינה לבנה 5%",
+            # Napoleon natural cheese cream cheese 25% - 225 grams
+            "64": "נפוליאון גבינת שמנת בטעם טבעי 25%",
+            # 5% creamy cheese symphony - 200 grams
+            "65": "סימפוניה גבינה במרקם שמנת 5%",
+            # Labana cheese 5% - 250 grams
+            "66": "גבינת לאבנה 5%",
+            # Camembert cheese - 200 GRAMS
+            "67": "גבינת קממבר",
+            # Roquefort cheese - 180 grams
+            "68": "גבינת גליל רוקפור",
+            # Mozzarella - 100 grams
+            "69": "גבינת מוצרלה פרסקה",
+            # Berry cheese - 125 grams
+            "70": "גבינת ברי",
+            # Dreamy cheese 25% fat - 200 grams
+            "71": "חלומי פרוס 22%",
+            # Bulgarian cheese 16% - 250 grams
+            "72": "גבינה בולגרית 16%",
+            # zftit cheese 5% - 200 grams
+            "73": "גבינה צפתית מעודנת 5%",
+            # feta shipping cheese - 250 grams
+            "74": "גבינת פטה כבשים 5%",
+            # hemed cheese 16% - 2500 grams
+            "75": "גבינת חמד 16%",
+            # rikota cheese - 300 grams
+            "76": "גבינת ריקוטה פרסקה מעודן 9%",
+        },
+    },
 ]

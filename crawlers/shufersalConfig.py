@@ -92,4 +92,49 @@ urls = [
             "55": "P_1127254",  # Fresh Dennis fish - by kg
         },
     },
+    # ------------------------------DAIRY------------------------------
+    {
+        "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%97%D7%9C%D7%91-%D7%95%D7%91%D7%99%D7%A6%D7%99%D7%9D/c/A01',
+        "itemsToScrape": {
+            "56": "P_7290014758162",                      # goat milk - 1 liter
+            "57": "P_3029907",                  # ice coffie drink - 1 liter
+            "58": "P_3029181",               # shoko drink - 1 liter
+            # Pack of 8 pieces of Activia cream yogurt 1.5% fat
+            "59": "P_7290107934473",
+            # 1 Yogurt with Gluten Free Chocolate Crackers 4.2%
+            "60": "P_408354",
+            # Frilly yogurt with 1.5% strawberry - 500 grams
+            "61": "יוגורט פרילי עם תות 1.5%",
+            # Cottage 5% mehadrin - 250 GRAMS
+            "62": "P_41445",
+            # 5% white cheese - 250 grams
+            "63": "P_48185",
+            # Napoleon natural cheese cream cheese 25% - 225 grams
+            "64": "P_4129101",
+            # 5% creamy cheese symphony - 200 grams
+            "65": "P_4584351",
+            # Labana cheese 5% - 250 grams
+            "66": "P_5992735",
+            # Camembert cheese - 200 GRAMS
+            "67": "P_7296073366898",
+            # Roquefort cheese - 180 grams
+            "68": "P_7290014759992",
+            # Mozzarella - 100 grams
+            "69": "P_7290014455320",
+            # Berry cheese - 125 grams
+            "70": "P_7290014692299",
+            # Dreamy cheese 25% fat - 200 grams
+            "71": "P_7290011499365",
+            # Bulgarian cheese 16% - 250 grams
+            "72": "P_7290102399079",
+            # zftit cheese 5% - 200 grams
+            "73": "P_7290114310338",
+            # feta shipping cheese - 250 grams
+            "74": "P_55015",
+            # hemed cheese 16% - 2500 grams
+            "75": "P_48444",
+            # rikota cheese - 300 grams
+            "76": "P_7290011499846",
+        },
+    },
 ]
