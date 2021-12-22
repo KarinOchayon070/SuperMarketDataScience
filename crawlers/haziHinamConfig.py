@@ -1,6 +1,6 @@
 urls = [
     {
-        #     # ------------------------------FRIUTS------------------------------
+        # ------------------------------FRIUTS------------------------------
         "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=45&subCategoryId=10886',
         "itemsToScrape": {
             "1": "בננה",                 # banana

@@ -34,7 +34,7 @@ for item in urls:
             price = itemParent.find_element(
                 By.CSS_SELECTOR, "meta[itemprop='price']").get_attribute("content")
 
-            print(price, "price")
+            print(price)
 
         except:
             print(key, "is not available")

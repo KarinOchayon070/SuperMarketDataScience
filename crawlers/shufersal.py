@@ -1,8 +1,8 @@
-from shufersalConfig import urls
-from selenium.webdriver.common.by import By
-import time
 from selenium import webdriver
+import time
+from selenium.webdriver.common.by import By
 import utils
+from shufersalConfig import urls
 
 # Path to chromedriver
 PATH = "C:\Windows\chromedriver.exe"
@@ -38,5 +38,4 @@ for item in urls:
 
 
 print(itemsScraped)
-
 time.sleep(20)

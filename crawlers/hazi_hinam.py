@@ -35,9 +35,9 @@ for item in urls:
             itemPrice = itemGrandParent.find_element(
                 By.CSS_SELECTOR, "div[class='product_cube-price']").get_attribute("innerText")
 
-            itemPriceNumbers = utils.extractNumber(itemPrice)
+            #itemPriceNumbers = utils.extractNumber(itemPrice)
 
-            print(itemPriceNumbers,)
+            print(itemPrice)
 
         except Exception as e:
             print(key, "is not available")
