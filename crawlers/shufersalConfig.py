@@ -138,46 +138,91 @@ urls = [
     #     },
     # },
     # ------------------------------BRAD AND BAKERY------------------------------
+    # {
+    #     "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%90%D7%A4%D7%99%D7%94-%D7%95%D7%9C%D7%97%D7%9E%D7%99%D7%9D/%D7%9C%D7%97%D7%9D%2C-%D7%9C%D7%97%D7%9E%D7%A0%D7%99%D7%95%D7%AA-%D7%95%D7%A4%D7%99%D7%AA%D7%95%D7%AA/c/A1008',
+    #     "itemsToScrape": {
+    #         # shifon bread - 750 grams
+    #         "77": "P_2373551",
+    #         # cosmin bread - 500 grams
+    #         "78": "P_4685430",
+    #         "79": "P_2071",  # Braided challah
+    #         "80": "P_497457",  # dganim bread - 750 grams
+    #         "81": "P_574141",  # whole wheat bread - 750 grams
+    #         "82": "P_7290013121776",  # kafri bread - 500 grams
+    #         "83": "P_7290010777099",  # Pack of 10 pitas
+    #         "84": "P_2079361",  # Eight hamburger rolls
+    #         "85": "P_4685447",  # Pack of 6 cosmin rolls
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%97%D7%98%D7%99%D7%A4%D7%99%D7%9D%2C-%D7%9E%D7%AA%D7%95%D7%A7%D7%99%D7%9D-%D7%95%D7%93%D7%92%D7%A0%D7%99-%D7%91%D7%95%D7%A7%D7%A8/c/A25?q=:relevance:categories-3:A2507',
+    #     "itemsToScrape": {
+    #         # Rice crackers from whole brown rice - 100 grams
+    #         "86": "P_446110",
+    #         # Crisps with a dark chocolate base - 70 grams
+    #         "87": "P_7290105968777",
+    #         "88": "P_80765",  # tostthaim - 100 grams
+    #         "89": "P_7290010259991",  # znim - 250 grams
+    #         "90": "P_3805587",  # patit hita melea - 250 grams
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%97%D7%98%D7%99%D7%A4%D7%99%D7%9D%2C-%D7%9E%D7%AA%D7%95%D7%A7%D7%99%D7%9D-%D7%95%D7%93%D7%92%D7%A0%D7%99-%D7%91%D7%95%D7%A7%D7%A8/c/A25?q=:relevance:categories-3:A2508',
+    #     "itemsToScrape": {
+    #         # choclate cake - 400 grams
+    #         "91": "P_6983763",
+    #         # shmarim cake - 350 grams
+    #         "92": "P_7290106578821",
+    #         "93": "P_6983794",  # orange cake - 400 grams
+    #         "94": "P_61245",  # chocolate cookies - 220 grams
+    #         "95": "P_8775823",  # argaliot toot cookies - 300 grams
+    #         "96": "P_5410126106183",  # lotus cookies - 312 grams
+    #         "97": "P_7290014083806",  # butter cookies - 340 grams
+    #     },
+    # },
+    # # ------------------------------DRINKS AND ALCOHOL------------------------------
     {
-        "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%90%D7%A4%D7%99%D7%94-%D7%95%D7%9C%D7%97%D7%9E%D7%99%D7%9D/%D7%9C%D7%97%D7%9D%2C-%D7%9C%D7%97%D7%9E%D7%A0%D7%99%D7%95%D7%AA-%D7%95%D7%A4%D7%99%D7%AA%D7%95%D7%AA/c/A1008',
+        "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA%2C-%D7%90%D7%9C%D7%9B%D7%95%D7%94%D7%95%D7%9C-%D7%95%D7%99%D7%99%D7%9F/%D7%99%D7%99%D7%A0%D7%95%D7%AA-%D7%95%D7%AA%D7%99%D7%A8%D7%95%D7%A9/c/A1320',
         "itemsToScrape": {
-            # shifon bread - 750 grams
-            "77": "P_2373551",
-            # cosmin bread - 500 grams
-            "78": "P_4685430",
-            "79": "P_2071",  # Braided challah
-            "80": "P_497457",  # dganim bread - 750 grams
-            "81": "P_574141",  # whole wheat bread - 750 grams
-            "82": "P_7290013121776",  # kafri bread - 500 grams
-            "83": "P_7290010777099",  # Pack of 10 pitas
-            "84": "P_2079361",  # Eight hamburger rolls
-            "85": "P_4685447",  # Pack of 6 cosmin rolls
+            "98": "P_7290017812571",  # Tirosh wine
+            "99": "P_7290018165010",  # Gewurztraminer wine
+
         },
     },
     {
-        "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%97%D7%98%D7%99%D7%A4%D7%99%D7%9D%2C-%D7%9E%D7%AA%D7%95%D7%A7%D7%99%D7%9D-%D7%95%D7%93%D7%92%D7%A0%D7%99-%D7%91%D7%95%D7%A7%D7%A8/c/A25?q=:relevance:categories-3:A2507',
+        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=10851',
         "itemsToScrape": {
-            # Rice crackers from whole brown rice - 100 grams
-            "86": "P_446110",
-            # Crisps with a dark chocolate base - 70 grams
-            "87": "P_7290105968777",
-            "88": "P_80765",  # tostthaim - 100 grams
-            "89": "P_7290010259991",  # znim - 250 grams
-            "90": "P_3805587",  # patit hita melea - 250 grams
+            "100": "P_1594377",  # ORANGE JUICE - 1.5 LITER
+            "101": "P_1594391",  # GRAPE JUICE - 1.5 LITER
+            "102": "P_7290110115494",  # FUZETEA - 1.5 LITER
+            "103": "P_1247143",  # APPLE NECTAR - 1 LITER
+            "104": "P_7290019056577",  # MANGO JUICE - 1.5 LITER
+            "105": "P_8850389105849",  # alovera drink - 1  liter
+
         },
     },
     {
-        "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%97%D7%98%D7%99%D7%A4%D7%99%D7%9D%2C-%D7%9E%D7%AA%D7%95%D7%A7%D7%99%D7%9D-%D7%95%D7%93%D7%92%D7%A0%D7%99-%D7%91%D7%95%D7%A7%D7%A8/c/A25?q=:relevance:categories-3:A2508',
+        "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA%2C-%D7%90%D7%9C%D7%9B%D7%95%D7%94%D7%95%D7%9C-%D7%95%D7%99%D7%99%D7%9F/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA-%D7%A7%D7%9C%D7%99%D7%9D/c/A1308',
         "itemsToScrape": {
-            # choclate cake - 400 grams
-            "91": "P_6983763",
-            # shmarim cake - 350 grams
-            "92": "P_7290106578821",
-            "93": "P_6983794",  # orange cake - 400 grams
-            "94": "P_61245",  # chocolate cookies - 220 grams
-            "95": "P_8775823",  # argaliot toot cookies - 300 grams
-            "96": "P_5410126106183",  # lotus cookies - 312 grams
-            "97": "P_7290014083806",  # butter cookies - 340 grams
+            "106": "P_7290110115203",  # COCA COLA - 1.5 LITER
+            "107": "P_7290110115227",  # ZERO COCA COLA - 1.5 LITER
+            "108": "P_136172",  # SEVENUP - 1.5 LITER
+            "109": "P_7290018471906",  # SCHWEPS - 1 LITER
+            "110": "P_7290019056065",  # SCHWEPS - 1.5 LITER
+            "111": "P_7290110115296",  # FANTA - 1  liter
+
+        },
+    },
+    {
+        "url": 'https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA%2C-%D7%90%D7%9C%D7%9B%D7%95%D7%94%D7%95%D7%9C-%D7%95%D7%99%D7%99%D7%9F/%D7%91%D7%99%D7%A8%D7%94-%D7%95%D7%9E%D7%A9%D7%A7%D7%90%D7%95%D7%AA-%D7%90%D7%A0%D7%A8%D7%92%D7%99%D7%94/c/A1314',
+        "itemsToScrape": {
+            "112": "P_8464796",  # SIX PACK OF HEINEKEN
+            "113": "P_7501064191398",  # SIX PACK OF CORONA
+            "114": "P_8464741",  # SIX PACK OF GOLDSTAR
+            "115": "P_1594858",  # SIX PACK OF TUBORG
+            "116": "P_1594865",  # SIX PACK OF CARLSBERG
+            "117": "P_8464703",  # SIX PACK OF MACKBVI
+            "118": "P_5410228144755",  # SIX PACK OF STELLA ARTOA
         },
     },
 ]

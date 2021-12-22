@@ -159,36 +159,81 @@ urls = [
     #     },
     # },
     # ------------------------------BRAD AND BAKERY------------------------------
-    {
-        "url": 'https://www.mck.co.il/categories/79687/products',
-        "itemsToScrape": {
-            # shifon bread - 750 grams
-            "77": "לחם שיפון כפרי",
-            # cosmin bread - 500 grams
-            "78": "לחם כוסמין 100%",
-            "79": "חלה רגילה קלועה",  # Braided challah
-            "80": "לחם דגנים ללא תוספת סוכר",  # dganim bread - 750 grams
-            "81": "לחם חיטה מלאה",  # whole wheat bread - 750 grams
-            "82": "לחם שיפון כפרי",  # kafri bread - 500 grams
-            "83": "פיתה",  # Pack of 10 pitas
-            "84": "לחמניות המבורגר בסגנון אמריקה",  # Eight hamburger rolls
-            "85": "לחמניות כוסמין",  # Pack of 6 cosmin rolls
-            # Rice crackers from whole brown rice - 100 grams
-            "86": "פריכיות אורז מאורז חום מלא ללא מלח",
-            # Crisps with a dark chocolate base - 70 grams
-            "87": "פריכיות עם תחתית שוקולד מריר",
-            "88": "טוסטעים פת קלויה שומשום",  # tostthaim - 100 grams
-            "89": "צנימים",  # znim - 250 grams
-            "90": "פתית חיטה מלאה",  # patit hita melea - 250 grams
-            # choclate cake - 400 grams
-            "91": "עוגת הבית בטעם שוקולד",
-            # shmarim cake - 350 grams
-            "92": "עוגת הבית שמרים בטעם שוקולד",
-            "93": "עוגת הבית בטעם תפוז",  # orange cake - 400 grams
-            "94": "עוגיות שוקולד צ'יפס קלאסי",  # chocolate cookies - 220 grams
-            "95": "עוגיות ערגליות תות",  # argaliot toot cookies - 300 grams
-            "96": "ביסקוויט לוטוס בטעם קרמל ארוז נפרד",  # lotus cookies - 312 grams
-            "97": "עוגיות חמאה 340ג פנטולה",  # butter cookies - 340 grams
-        },
-    },
+    # {
+    #     "url": 'https://www.mck.co.il/categories/79687/products',
+    #     "itemsToScrape": {
+    #         # shifon bread - 750 grams
+    #         "77": "לחם שיפון כפרי",
+    #         # cosmin bread - 500 grams
+    #         "78": "לחם כוסמין 100%",
+    #         "79": "חלה רגילה קלועה",  # Braided challah
+    #         "80": "לחם דגנים ללא תוספת סוכר",  # dganim bread - 750 grams
+    #         "81": "לחם חיטה מלאה",  # whole wheat bread - 750 grams
+    #         "82": "לחם שיפון כפרי",  # kafri bread - 500 grams
+    #         "83": "פיתה",  # Pack of 10 pitas
+    #         "84": "לחמניות המבורגר בסגנון אמריקה",  # Eight hamburger rolls
+    #         "85": "לחמניות כוסמין",  # Pack of 6 cosmin rolls
+    #         # Rice crackers from whole brown rice - 100 grams
+    #         "86": "פריכיות אורז מאורז חום מלא ללא מלח",
+    #         # Crisps with a dark chocolate base - 70 grams
+    #         "87": "פריכיות עם תחתית שוקולד מריר",
+    #         "88": "טוסטעים פת קלויה שומשום",  # tostthaim - 100 grams
+    #         "89": "צנימים",  # znim - 250 grams
+    #         "90": "פתית חיטה מלאה",  # patit hita melea - 250 grams
+    #         # choclate cake - 400 grams
+    #         "91": "עוגת הבית בטעם שוקולד",
+    #         # shmarim cake - 350 grams
+    #         "92": "עוגת הבית שמרים בטעם שוקולד",
+    #         "93": "עוגת הבית בטעם תפוז",  # orange cake - 400 grams
+    #         "94": "עוגיות שוקולד צ'יפס קלאסי",  # chocolate cookies - 220 grams
+    #         "95": "עוגיות ערגליות תות",  # argaliot toot cookies - 300 grams
+    #         "96": "ביסקוויט לוטוס בטעם קרמל ארוז נפרד",  # lotus cookies - 312 grams
+    #         "97": "עוגיות חמאה 340ג פנטולה",  # butter cookies - 340 grams
+    #     },
+    # },
+    # # # ------------------------------DRINKS AND ALCOHOL------------------------------
+    # {
+    #     "url": 'https://www.mck.co.il/categories/79669/products',
+    #     "itemsToScrape": {
+    #         "98": "מיץ ענבים תירוש",  # Tirosh wine
+    #         "99": "יין בלו ויין גוורצטרמינר ריזלינג",  # Gewurztraminer wine
+
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.mck.co.il/categories/79670/products',
+    #     "itemsToScrape": {
+    #         "100": "משקה טעם תפוזים",  # ORANGE JUICE - 1.5 LITER
+    #         "101": "פריגת טעם ענבים 40% פחות סוכר",  # GRAPE JUICE - 1.5 LITER
+    #         "102": "פיוז טי אפרסק",  # FUZETEA - 1.5 LITER
+    #         "103": "נקטר תפוחים",  # APPLE NECTAR - 1 LITER
+    #         "104": "משקה טעם מנגו",  # MANGO JUICE - 1.5 LITER
+    #         "105": "משקה אלוורה בטעם תפוח",  # alovera drink - 1  liter
+
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.tivtaam.co.il/categories/90288/products',
+    #     "itemsToScrape": {
+    #         "106": "קולה",  # COCA COLA - 1.5 LITER
+    #         "107": "קולה זירו",  # ZERO COCA COLA - 1.5 LITER
+    #         "108": "סבן אפ",  # SEVENUP - 1.5 LITER
+    #         "109": "לימונדה ורודה",  # SCHWEPS - 1.5 LITER
+    #         "110": "מוגז עדין בטעם פירות יער",  # SCHWEPS - 1.5 LITER
+    #         "111": "פאנטה זירו בטעם תפוח",  # FANTA - 1  liter
+
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.tivtaam.co.il/categories/90315/products',
+    #     "itemsToScrape": {
+    #         "112": "בירה היינקן לבנה",  # SIX PACK OF HEINEKEN
+    #         "113": "בירה קורונה",  # SIX PACK OF CORONA
+    #         "114": "בירה גולדסטאר כהה 6 יחידות",  # SIX PACK OF GOLDSTAR
+    #         "115": "בירה טובורג",  # SIX PACK OF TUBORG
+    #         "116": "קרלסברג שישיה בקבוק",  # SIX PACK OF CARLSBERG
+    #         "117": "בירה מכבי לאגר 7.9%",  # SIX PACK OF MACKBVI
+    #         "118": "שנדי בירה בטעם תפוח 6 יחידות",  # SIX PACK OF STELLA ARTOA
+    #     },
+    # },
 ]

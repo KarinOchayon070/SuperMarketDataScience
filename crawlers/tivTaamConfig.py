@@ -188,42 +188,87 @@ urls = [
     #         "76": "גבינת ריקוטה פרסקה מעודן 9%",
     #     },
     # },
-    # ------------------------------BRAD AND BAKERY------------------------------
-    {
-        "url": 'https://www.tivtaam.co.il/categories/90198/products',
-        "itemsToScrape": {
-            # shifon bread - 750 grams
-            "77": "לחם שיפון פרוס",
-            # cosmin bread - 500 grams
-            "78": "לחם כוסמין 100%",
-            "79": "חלה קלועה",  # Braided challah
-            "80": "לחם 10 דגנים פרוס",  # dganim bread - 750 grams
-            "81": "לחם חיטה מלאה פרוס",  # whole wheat bread - 750 grams
-            "82": "לחם כפרי",  # kafri bread - 500 grams
-            "83": "10 פיתות במרקם מיוחד",  # Pack of 10 pitas
-            "84": "לחמניות המבורגר 8 יח'",  # Eight hamburger rolls
-            "85": "לחמניות כוסמין 6 יח'",  # Pack of 6 cosmin rolls
-            # Rice crackers from whole brown rice - 100 grams
-            "86": "פריכיות אורז מאורז חום מלא ללא מלח",
-            # Crisps with a dark chocolate base - 70 grams
-            "87": "פריכיות עם תחתית שוקולד מריר",
-            "88": "טוסטעים פת קלויה שומשומם",  # tostthaim - 100 grams
-            "89": "צנימים",  # znim - 250 grams
-            "90": "פתית חיטה מלאה",  # patit hita melea - 250 grams
-        },
-    },
-    {
-        "url": 'https://www.tivtaam.co.il/categories/90271/products',
-        "itemsToScrape": {
-            # choclate cake - 400 grams
-            "91": "עוגת הבית בטעם שוקולד",
-            # shmarim cake - 350 grams
-            "92": "עוגת הבית שמרים בטעם שוקולד",
-            "93": "עוגת הבית בטעם תפוז",  # orange cake - 400 grams
-            "94": "עוגיות שוקולד צ'יפס קלאסי",  # chocolate cookies - 220 grams
-            "95": "עוגיות ערגליות שוקו",  # argaliot toot cookies - 300 grams
-            "96": "ביסקוויט לוטוס בטעם קרמל ארוז נפרד",  # lotus cookies - 312 grams
-            "97": "מיני קוקיס עוגיות בטעם חמאה",  # butter cookies - 340 grams
-        },
-    },
+    # # ------------------------------BRAD AND BAKERY------------------------------
+    # {
+    #     "url": 'https://www.tivtaam.co.il/categories/90198/products',
+    #     "itemsToScrape": {
+    #         # shifon bread - 750 grams
+    #         "77": "לחם שיפון פרוס",
+    #         # cosmin bread - 500 grams
+    #         "78": "לחם כוסמין 100%",
+    #         "79": "חלה קלועה",  # Braided challah
+    #         "80": "לחם 10 דגנים פרוס",  # dganim bread - 750 grams
+    #         "81": "לחם חיטה מלאה פרוס",  # whole wheat bread - 750 grams
+    #         "82": "לחם כפרי",  # kafri bread - 500 grams
+    #         "83": "10 פיתות במרקם מיוחד",  # Pack of 10 pitas
+    #         "84": "לחמניות המבורגר 8 יח'",  # Eight hamburger rolls
+    #         "85": "לחמניות כוסמין 6 יח'",  # Pack of 6 cosmin rolls
+    #         # Rice crackers from whole brown rice - 100 grams
+    #         "86": "פריכיות אורז מאורז חום מלא ללא מלח",
+    #         # Crisps with a dark chocolate base - 70 grams
+    #         "87": "פריכיות עם תחתית שוקולד מריר",
+    #         "88": "טוסטעים פת קלויה שומשומם",  # tostthaim - 100 grams
+    #         "89": "צנימים",  # znim - 250 grams
+    #         "90": "פתית חיטה מלאה",  # patit hita melea - 250 grams
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.tivtaam.co.il/categories/90271/products',
+    #     "itemsToScrape": {
+    #         # choclate cake - 400 grams
+    #         "91": "עוגת הבית בטעם שוקולד",
+    #         # shmarim cake - 350 grams
+    #         "92": "עוגת הבית שמרים בטעם שוקולד",
+    #         "93": "עוגת הבית בטעם תפוז",  # orange cake - 400 grams
+    #         "94": "עוגיות שוקולד צ'יפס קלאסי",  # chocolate cookies - 220 grams
+    #         "95": "עוגיות ערגליות שוקו",  # argaliot toot cookies - 300 grams
+    #         "96": "ביסקוויט לוטוס בטעם קרמל ארוז נפרד",  # lotus cookies - 312 grams
+    #         "97": "מיני קוקיס עוגיות בטעם חמאה",  # butter cookies - 340 grams
+    #     },
+    # },
+    # # # ------------------------------DRINKS AND ALCOHOL------------------------------
+    # {
+    #     "url": 'https://www.tivtaam.co.il/categories/90309/products',
+    #     "itemsToScrape": {
+    #         "98": "תירוש כרמל מיץ ענבים",  # Tirosh wine
+    #         "99": "יין כרמל הסדרה האזורית גוורצטרמינר",  # Gewurztraminer wine
+
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.tivtaam.co.il/categories/90285/products',
+    #     "itemsToScrape": {
+    #         "100": "טעם תפוזים",  # ORANGE JUICE - 1.5 LITER
+    #         "101": "פריגת ענבים",  # GRAPE JUICE - 1.5 LITER
+    #         "102": "טעם ענבים",  # FUZETEA - 1.5 LITER
+    #         "103": "נקטר תפוחים",  # APPLE NECTAR - 1 LITER
+    #         "104": "טעם מנגו",  # MANGO JUICE - 1.5 LITER
+    #         "105": "משקה אלוורה בטעם אפרסק",  # alovera drink - 1  liter
+
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.tivtaam.co.il/categories/90288/products',
+    #     "itemsToScrape": {
+    #         "106": "קוקה קולה",  # COCA COLA - 1.5 LITER
+    #         "107": "קולה זירו",  # ZERO COCA COLA - 1.5 LITER
+    #         "108": "סבן אפ",  # SEVENUP - 1.5 LITER
+    #         "109": "לימונדה ורודה",  # SCHWEPS - 1.5 LITER
+    #         "110": "מוגז עדין בטעם פירות יער",  # SCHWEPS - 1.5 LITER
+    #         "111": "פאנטה זירו בטעם תפוח",  # FANTA - 1  liter
+
+    #     },
+    # },
+    # {
+    #     "url": 'https://www.tivtaam.co.il/categories/90315/products',
+    #     "itemsToScrape": {
+    #         "112": "בירה היינקן לבנה",  # SIX PACK OF HEINEKEN
+    #         "113": "בירה קורונה",  # SIX PACK OF CORONA
+    #         "114": "בירה גולדסטאר כהה 6 יחידות",  # SIX PACK OF GOLDSTAR
+    #         "115": "בירה טובורג רד",  # SIX PACK OF TUBORG
+    #         "116": "בירה קרלסברג 6 יחידות",  # SIX PACK OF CARLSBERG
+    #         "117": "בירה מכבי לבנה",  # SIX PACK OF MACKBVI
+    #         "118": "בירה סטלה ארטואה 6 יחידות",  # SIX PACK OF STELLA ARTOA
+    #     },
+    # },
 ]

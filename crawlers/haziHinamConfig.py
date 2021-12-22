@@ -157,46 +157,91 @@ urls = [
     #     },
     # },
     # ------------------------------BRAD AND BAKERY------------------------------
+    # {
+    #     "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=67&subCategoryId=11237',
+    #     "itemsToScrape": {
+    #         # shifon bread - 750 grams
+    #         "77": "לחם שיפון 100%",
+    #         # cosmin bread - 500 grams
+    #         "78": "לחם כוסמין 100%",
+    #         "79": "חלה קלועה / חלה מתוקה עגולה לבחירה",  # Braided challah
+    #         "80": "לחם דגנים",  # dganim bread - 750 grams
+    #         "81": "לחם חיטה מלאה",  # whole wheat bread - 750 grams
+    #         "82": "לחם כפרי",  # kafri bread - 500 grams
+    #         "83": "מארז 10 פיתות תימניות עבודת יד",  # Pack of 10 pitas
+    #         "84": "שמונה לחמניות המבורגר",  # Eight hamburger rolls
+    #         "85": "מארז 6 לחמניות כוסמין",  # Pack of 6 cosmin rolls
+    #     },
+    # },
+    # {
+    #     "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=67&subCategoryId=10859',
+    #     "itemsToScrape": {
+    #         # Rice crackers from whole brown rice - 100 grams
+    #         "86": "פריכיות אורז מאורז חום מלא",
+    #         # Crisps with a dark chocolate base - 70 grams
+    #         "87": "פריכיות עם תחתית שוקולד מריר",
+    #         "88": "טוסטעים צנימים עם שומשום",  # tostthaim - 100 grams
+    #         "89": "צנימים",  # znim - 250 grams
+    #         "90": "פתית חיטה מלאה",  # patit hita melea - 250 grams
+    #     },
+    # },
+    # {
+    #     "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=67&subCategoryId=11485',
+    #     "itemsToScrape": {
+    #         # choclate cake - 400 grams
+    #         "91": "עוגת הבית בטעם שוקולד",
+    #         # shmarim cake - 350 grams
+    #         "92": "עוגת הבית שמרים קלאסית בטעם שוקולד",
+    #         "93": "עוגת הבית בטעם תפוז",  # orange cake - 400 grams
+    #         "94": "עוגיות שוקולד צ'יפס במילוי קרם בטעם שוקולד",  # chocolate cookies - 220 grams
+    #         "95": "עוגיות ערגליות תות",  # argaliot toot cookies - 300 grams
+    #         "96": "עוגיות לוטוס Lotus",  # lotus cookies - 312 grams
+    #         "97": "עוגיות בטעם חמאה",  # butter cookies - 340 grams
+    #     },
+    # },
+    # # ------------------------------DRINKS AND ALCOHOL------------------------------
     {
-        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=67&subCategoryId=11237',
+        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=10850',
         "itemsToScrape": {
-            # shifon bread - 750 grams
-            "77": "לחם שיפון 100%",
-            # cosmin bread - 500 grams
-            "78": "לחם כוסמין 100%",
-            "79": "חלה קלועה / חלה מתוקה עגולה לבחירה",  # Braided challah
-            "80": "לחם דגנים",  # dganim bread - 750 grams
-            "81": "לחם חיטה מלאה",  # whole wheat bread - 750 grams
-            "82": "לחם כפרי",  # kafri bread - 500 grams
-            "83": "מארז 10 פיתות תימניות עבודת יד",  # Pack of 10 pitas
-            "84": "שמונה לחמניות המבורגר",  # Eight hamburger rolls
-            "85": "מארז 6 לחמניות כוסמין",  # Pack of 6 cosmin rolls
+            "98": "תירוש כרמל מיץ ענבים",  # Tirosh wine
+            "99": "יין גוורצטרמינר לבן חצי יבש",  # Gewurztraminer wine
+
         },
     },
     {
-        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=67&subCategoryId=10859',
+        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=10851',
         "itemsToScrape": {
-            # Rice crackers from whole brown rice - 100 grams
-            "86": "פריכיות אורז מאורז חום מלא",
-            # Crisps with a dark chocolate base - 70 grams
-            "87": "פריכיות עם תחתית שוקולד מריר",
-            "88": "טוסטעים צנימים עם שומשום",  # tostthaim - 100 grams
-            "89": "צנימים",  # znim - 250 grams
-            "90": "פתית חיטה מלאה",  # patit hita melea - 250 grams
+            "100": "משקה קל בטעם תפוזים",  # ORANGE JUICE - 1.5 LITER
+            "101": "פריגת ענבים",  # GRAPE JUICE - 1.5 LITER
+            "102": "תה קר בטעם ענבים",  # FUZETEA - 1.5 LITER
+            "103": "נקטר תפוחים",  # APPLE NECTAR - 1 LITER
+            "104": "משקה בטעם מנגו",  # MANGO JUICE - 1.5 LITER
+            "105": "משקה אלוורה בטעם אפרסק",  # alovera drink - 1  liter
+
         },
     },
     {
-        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=67&subCategoryId=11485',
+        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=11424',
         "itemsToScrape": {
-            # choclate cake - 400 grams
-            "91": "עוגת הבית בטעם שוקולד",
-            # shmarim cake - 350 grams
-            "92": "עוגת הבית שמרים קלאסית בטעם שוקולד",
-            "93": "עוגת הבית בטעם תפוז",  # orange cake - 400 grams
-            "94": "עוגיות שוקולד צ'יפס במילוי קרם בטעם שוקולד",  # chocolate cookies - 220 grams
-            "95": "עוגיות ערגליות תות",  # argaliot toot cookies - 300 grams
-            "96": "עוגיות לוטוס Lotus",  # lotus cookies - 312 grams
-            "97": "עוגיות בטעם חמאה",  # butter cookies - 340 grams
+            "106": "קוקה קולה קלאסי",  # COCA COLA - 1.5 LITER
+            "107": "קוקה קולה זירו zero",  # ZERO COCA COLA - 1.5 LITER
+            "108": "סבן אפ",  # SEVENUP - 1.5 LITER
+            "109": "משקה מוגז לימודה ורודה",  # SCHWEPS - 1.5 LITER
+            "110": "משקה בטעם פירות יער מוגז עדין",  # SCHWEPS - 1.5 LITER
+            "111": "פאנטה זירו בטעם תפוח",  # FANTA - 1  liter
+
+        },
+    },
+    {
+        "url": 'https://shop.hazi-hinam.co.il/#/catalog?viewMode=category_targeting&categoryId=79&subCategoryId=11209',
+        "itemsToScrape": {
+            "112": "בירה היינקן שישייה",  # SIX PACK OF HEINEKEN
+            "113": "בירה קורונה שישייה",  # SIX PACK OF CORONA
+            "114": "בירה גולדסטאר שישייה",  # SIX PACK OF GOLDSTAR
+            "115": "בירה טובורג רד שישייה",  # SIX PACK OF TUBORG
+            "116": "בירה קרלסברג שישייה",  # SIX PACK OF CARLSBERG
+            "117": "בירה מכבי שישייה",  # SIX PACK OF MACKBVI
+            "118": "בירה סטלה ארטואה שישייה",  # SIX PACK OF STELLA ARTOA
         },
     },
 ]
